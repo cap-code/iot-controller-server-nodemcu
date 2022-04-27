@@ -40,7 +40,7 @@ const server = http.createServer((req,res)=>{
         }));
     })
 })
-server.listen(3000,()=>{console.log("server is listening")})
+server.listen(4000,()=>{console.log("server is listening")})
 
 const wss = new WebSocketServer({
   clientTracking:true,
